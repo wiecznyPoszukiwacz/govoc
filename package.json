@@ -1,0 +1,25 @@
+{
+  "name": "govoc",
+  "version": "4.1.0",
+  "description": "JSON-RPC client with interactive TUI built with bubbletea",
+  "main": "main.go",
+  "scripts": {
+    "start": "cd src && go run .",
+    "build": "cd src && go build -o ../govoc .",
+    "clean": "rm -f govoc",
+    "test": "go test ./...",
+    "fmt": "go fmt ./...",
+    "vet": "go vet ./..."
+  },
+  "keywords": [
+    "json-rpc",
+    "tui",
+    "bubbletea",
+    "go",
+    "terminal",
+    "interface",
+    "client"
+  ],
+  "author": "",
+  "license": "MIT"
+}
